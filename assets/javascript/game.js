@@ -10,8 +10,8 @@ var guessOptions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 
 
 // Pick Random Choices
 
-var playerGuess = guessOptions[Math.floor(Math.random() * playerGuess.length)];
-
+var playerGuess = guessOptions[Math.floor(Math.random() * guessOptions.length)];
+console.log(playerGuess);
 
 // Track Guesses Reamaining
 
