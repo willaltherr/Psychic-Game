@@ -5,13 +5,16 @@
 var guessOptions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
 // Create Global Variables
-
+var wins = 0;
+var losses = 0;
+var remainingGuesses = 9;
+var playerPick = [];
 
 
 // Pick Random Choices
 
 var playerGuess = guessOptions[Math.floor(Math.random() * guessOptions.length)];
-console.log(playerGuess);
+// console.log(playerGuess);
 
 // Track Guesses Reamaining
 
